@@ -18,7 +18,7 @@ const eqArrays = function (arrayOne, arrayTwo) {
   return true;
 }
 
-const assertArrayEqual = function (array1, array2) {
+const assertArraysEqual = function (array1, array2) {
   if (eqArrays(array1, array2) === false) {
     console.log(`Assertion failed`)
   } else {
