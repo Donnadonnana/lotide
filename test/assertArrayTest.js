@@ -25,4 +25,6 @@ const assertArraysEqual = function (array1, array2) {
     console.log(`Assertion Passed`)
   }
 };
-
+module.exports = assertEqual;
+module.exports = eqArrays;
+module.exports = assertArraysEqual;
