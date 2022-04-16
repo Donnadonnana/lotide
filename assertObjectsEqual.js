@@ -23,3 +23,5 @@ const assertObjectsEqual = function (actual, expected) {
       console.log(`✅✅✅ Assertion Passed: ${inspect(actual)} === ${inspect(expected)}`);
   }
 };
+
+module.exports = eqObjects;
